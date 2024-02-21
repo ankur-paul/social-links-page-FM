@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/static/Inter-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/static/Inter-SemiBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/static/Inter-Bold.ttf");
+  font-weight: bolder;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  font-size: 1.4rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 144rem;
+  height: 100vh;
+  margin: 0 auto;
+  /
+}
+
+.social-links {
+  width: 35rem;
+  /* height: 60rem; */
+  justify-content: space-between;  
+  /* border: 1px solid #222; */
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 9px;
+}
+
+.avatar {
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  margin: 4rem 0 3rem 0;
+}
+
+.name {
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}
+
+.address {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: hsl(75, 94%, 57%);
+}
+
+.intro {
+    color: #d1d0d0;
+}
+
+.link-buttons {
+    gap: 50rem;
+}
+
+.links {
+    list-style: none;
+    gap: 1.5rem;
+    padding: 3rem 4.2rem 4.2rem;
+    
+}
+
+.links li {
+    width: 100%;
+}
+
+.link:link,
+.link:visited {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    display: block;
+    width: inherit;
+    padding: 1.2rem 0;
+    border-radius: 9px;
+    background-color: hsl(0, 0%, 20%);
+
+    
+}
+
+.link:hover,
+.link:active{
+    background-color: hsl(75, 94%, 57%);
+    color: #222;
+
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: rgb(215, 213, 213)
+}
+.attribution a {
+    display: inline-block;
+    color: rgb(196, 189, 189);
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+    text-decoration: none;
+}
+
+
+
+
+
